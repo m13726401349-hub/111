@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="向 RUIYUAN 瑞元提交 PA66 材料需求。" />
+    <title>联系我们 | RUIYUAN 瑞元</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script src="assets/app.js" defer></script>
+  </head>
+  <body data-page="contact">
+    <div data-site-header></div>
+    <main>
+      <section class="page-hero">
+        <div class="container page-hero-grid">
+          <div>
+            <div class="breadcrumbs">首页 / 联系我们</div>
+            <h1>提交您的<br />材料需求</h1>
+          </div>
+          <p>为了提高选型沟通效率，请尽量提供国家或地区、应用场景、目标性能、预计用量、企业邮箱及可用的即时通讯方式。</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container inquiry-grid">
+          <div class="reveal">
+            <div class="content-heading">
+              <h2>联系信息</h2>
+              <p>欢迎到访瑞元工程塑料。邮箱、电话与 WhatsApp 将在企业确认后补充，地址已按企业提供信息更新。</p>
+            </div>
+            <div class="contact-info">
+              <div class="contact-row"><strong>公司名称</strong><span>东莞市瑞元工程塑料有限公司</span></div>
+              <div class="contact-row"><strong>品牌名称</strong><span>RUIYUAN 瑞元</span></div>
+              <div class="contact-row"><strong>现有官网</strong><a href="https://ruiyuan99.com" target="_blank" rel="noopener">https://ruiyuan99.com</a></div>
+              <div class="contact-row"><strong>1688 店铺</strong><a href="https://dgdongheng.1688.com/?spm=a261y.7663282.shopNavigation.2.510cbceeBHTkzu&amp;offerId=1057130753514&amp;td_page_id=PC-UNLOGIN-GYP-2025" target="_blank" rel="noopener">访问瑞元 1688 店铺</a></div>
+              <div class="contact-row"><strong>邮箱 / 电话</strong><span>待企业确认后补充</span></div>
+              <div class="contact-row"><strong>公司地址</strong><span>广东省东莞市常平镇大京九塑胶城塑通六路680</span></div>
+            </div>
+          </div>
+          <form
+            class="inquiry-form inquiry-form-premium reveal"
+            data-b2b-inquiry
+            data-endpoint="/api/inquiry"
+            novalidate
+          >
+            <div class="form-heading">
+              <div>
+                <span>BUSINESS INQUIRY</span>
+                <h2>获取产品与报价方案</h2>
+              </div>
+              <p><strong>*</strong> 为必填项</p>
+            </div>
+            <div class="form-grid">
+              <div class="field">
+                <label for="contact-name">姓名 <span class="required-mark">*</span></label>
+                <input id="contact-name" name="name" autocomplete="name" placeholder="请输入您的姓名" required />
+                <span class="field-hint">请填写便于我们称呼您的姓名。</span>
+                <span class="field-error" data-error-for="name"></span>
+              </div>
+              <div class="field">
+                <label for="contact-email">邮箱 <span class="required-mark">*</span></label>
+                <input id="contact-email" name="email" type="email" autocomplete="email" placeholder="name@company.com" required />
+                <span class="field-hint">建议使用企业邮箱，便于发送产品资料。</span>
+                <span class="field-error" data-error-for="email"></span>
+              </div>
+              <div class="field">
+                <label for="contact-phone">电话 <span class="required-mark">*</span></label>
+                <input
+                  id="contact-phone"
+                  name="phone"
+                  type="tel"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  placeholder="+86 138 0000 0000"
+                  required
+                />
+                <span class="field-hint">请包含国家/地区代码，例如 +86、+1、+971。</span>
+                <span class="field-error" data-error-for="phone"></span>
+              </div>
+              <div class="field">
+                <label for="contact-company">公司名称</label>
+                <input id="contact-company" name="company" autocomplete="organization" placeholder="请输入公司或组织名称" />
+                <span class="field-hint">选填，便于了解您的采购背景。</span>
+                <span class="field-error" data-error-for="company"></span>
+              </div>
+              <div class="field">
+                <label for="contact-country">国家 / 地区</label>
+                <input id="contact-country" name="country" autocomplete="country-name" placeholder="例如：中国、德国、阿联酋" />
+                <span class="field-hint">选填，用于确认交付地区与沟通时区。</span>
+                <span class="field-error" data-error-for="country"></span>
+              </div>
+              <div class="field">
+                <label for="contact-product">产品需求</label>
+                <select id="contact-product" name="product">
+                  <option value="">请选择产品方向（选填）</option>
+                  <option>通用 PA66</option>
+                  <option>阻燃 PA66</option>
+                  <option>增强 PA66</option>
+                  <option>OEM/ODM 定制</option>
+                  <option>其他材料需求</option>
+                </select>
+                <span class="field-hint">不确定时可选择“其他材料需求”。</span>
+                <span class="field-error" data-error-for="product"></span>
+              </div>
+              <div class="field field-full">
+                <label for="contact-message">留言</label>
+                <textarea
+                  id="contact-message"
+                  name="message"
+                  maxlength="2000"
+                  placeholder="请描述应用场景、目标性能、颜色、预计用量或现用材料信息"
+                ></textarea>
+                <div class="field-meta">
+                  <span class="field-hint">信息越具体，越有助于快速评估材料方案。</span>
+                  <span data-character-count>0 / 2000</span>
+                </div>
+                <span class="field-error" data-error-for="message"></span>
+              </div>
+            </div>
+            <div class="honeypot" aria-hidden="true">
+              <label for="contact-website">Website</label>
+              <input id="contact-website" name="website" tabindex="-1" autocomplete="off" />
+            </div>
+            <label class="consent-row">
+              <input type="checkbox" name="consent" required />
+              <span>我同意瑞元为回复本次询盘而处理以上信息。 <strong>*</strong></span>
+            </label>
+            <span class="field-error consent-error" data-error-for="consent"></span>
+            <input type="hidden" name="formStartedAt" value="" />
+            <button class="btn form-submit" type="submit">
+              <span data-submit-label>提交询盘</span>
+              <span class="submit-spinner" aria-hidden="true"></span>
+            </button>
+            <div class="form-status" role="status" aria-live="polite"></div>
+            <p class="form-security">表单采用字段校验、蜜罐和提交速度检测。正式部署时可选接入 Cloudflare Turnstile 或 Google reCAPTCHA。</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="section section-soft">
+        <div class="container">
+          <div class="map-heading reveal">
+            <div>
+              <h2>公司地址地图</h2>
+              <p>广东省东莞市常平镇大京九塑胶城塑通六路680</p>
+            </div>
+            <a
+              class="btn btn-secondary"
+              href="https://www.openstreetmap.org/search?query=%E5%B9%BF%E4%B8%9C%E7%9C%81%E4%B8%9C%E8%8E%9E%E5%B8%82%E5%B8%B8%E5%B9%B3%E9%95%87%E5%A4%A7%E4%BA%AC%E4%B9%9D%E5%A1%91%E8%83%B6%E5%9F%8E%E5%A1%91%E9%80%9A%E5%85%AD%E8%B7%AF680"
+              target="_blank"
+              rel="noopener"
+            >在 OpenStreetMap 中查看</a>
+          </div>
+          <div class="company-map reveal">
+            <iframe
+              title="东莞市瑞元工程塑料有限公司位置地图"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=114.0180%2C22.9580%2C114.0500%2C22.9815&amp;layer=mapnik&amp;marker=22.96978%2C114.03398"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="map-card">
+              <span class="map-pin" aria-hidden="true"></span>
+              <div>
+                <strong>东莞市瑞元工程塑料有限公司</strong>
+                <p>广东省东莞市常平镇大京九塑胶城塑通六路680</p>
+                <small>OpenStreetMap 暂未收录该门牌，地图标记为常平镇大京九片区参考位置，请以企业提供地址为准。</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div data-site-footer></div>
+  </body>
+</html>
